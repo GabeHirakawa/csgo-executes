@@ -156,7 +156,7 @@ static void AssignT(int client) {
 
   } else if (f < 0.8) {
     g_PlayerPrimary[client] = "";
-    g_PlayerSecondary[client] = "weapon_deagle"
+    g_PlayerSecondary[client] = "weapon_deagle";
     g_PlayerNades[client] = "fm";
   } else {
     g_PlayerPrimary[client] = "";
