@@ -6,8 +6,8 @@
 	}
 	"WaitingQueueMessage"
 	{
-		"#format"		"{1:i}"
-		"en"			"The game is currently full with {GREEN}{1} {NORMAL}players. You are in the waiting queue."
+		"#format"		"{1:i},{2:i}"
+		"en"			"The game is currently full with {GREEN}{1} {NORMAL}players. You are in the waiting queue. Your position in the queue is {purple} {2}"
 	}
 	"ScrambleMessage"
 	{

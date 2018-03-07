@@ -16,7 +16,7 @@ static void AssignCT(int client) {
   AssignCTNades(client, spawn);
 
   if (client == g_CTAwper) {
-    g_PlayerPrimary[client] = "weapon_awp";
+    g_PlayerPrimary[client] = "weapon_scout";
     g_PlayerSecondary[client] = "weapon_p250";
 
   } else {
@@ -156,9 +156,8 @@ static void AssignT(int client) {
 
   } else if (f < 0.8) {
     g_PlayerPrimary[client] = "";
-    GiveUpgradedSecondary(client, CS_TEAM_T);
+    g_PlayerSecondary[client] = "weapon_deagle"
     g_PlayerNades[client] = "fm";
-
   } else {
     g_PlayerPrimary[client] = "";
     GiveUpgradedSecondary(client, CS_TEAM_T);

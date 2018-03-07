@@ -1140,7 +1140,7 @@ public void UpdateTeams() {
   for (int i = 0; i < length; i++) {
     int client = GetArrayCell(g_hWaitingQueue, i);
     if (IsValidClient(client)) {
-      Executes_Message(client, "%t", "WaitingQueueMessage", g_hMaxPlayers.IntValue);
+      Executes_Message(client, "%t", "WaitingQueueMessage", g_hMaxPlayers.IntValue, i + 1);
     }
   }
 
