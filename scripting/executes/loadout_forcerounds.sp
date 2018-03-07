@@ -30,7 +30,7 @@ static void AssignCT(int client) {
       AssignRandomNades(client, 2);
 
     } else if (f < 0.3) {
-      g_PlayerPrimary[client] = "weapon_mp7";
+      g_PlayerSecondary[client] = "weapon_deagle";
       AssignRandomNades(client, 2);
 
     } else if (f < 0.4) {
