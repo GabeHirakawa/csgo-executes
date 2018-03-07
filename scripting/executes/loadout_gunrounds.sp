@@ -45,9 +45,7 @@ static void AssignCT(int client, bool helpCT) {
     } else if (Chance(0.002)) {
       g_PlayerPrimary[client] = "weapon_aug";
     } else if (Chance(0.0005)) {
-      g_PlayerPrimary[client] = "weapon_negev";
-    } else if (Chance(0.0005)) {
-      g_PlayerPrimary[client] = "weapon_m249";
+      g_PlayerSecondary[client] = "weapon_deagle";
     }
 
     if (HasFlag(spawn, SPAWNFLAG_MAG7) && Chance(0.15) && !helpCT) {
